@@ -23,7 +23,7 @@ management:
             mode: full
     health:
         mail:
-            enabled: false # When using the MailService, configure an SMTP server and set this to true
+            enabled: true # When using the MailService, configure an SMTP server and set this to true
 spring:
     application:
         name: MyJupiterServerApp
@@ -51,9 +51,8 @@ spring:
     social:
         # see https://developers.google.com/+/web/signin/server-side-flow#step_1_create_a_client_id_and_client_secret
         google:
-            client-id: xxx
-            client-secret: xxx
-
+            client-id: 823322900167-t0tu6t5ggt5hdo1quveu3ja44k5il0fd.apps.googleusercontent.com
+            client-secret: pvuG239T7rUnurzveglicSZ1
         # see https://developers.facebook.com/docs/facebook-login/v2.2
         facebook:
             client-id: xxx
